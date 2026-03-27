@@ -44,7 +44,7 @@ export default function Navbar() {
             window.scrollTo({ top: 0, behavior: "smooth" });
           }}
         >
-          SPIKE<span className="text-white/40">.dev</span>
+          CAUÃ MATTOS<span className="text-white/40">.portfolio</span>
         </motion.a>
 
         {/* Desktop */}
