@@ -17,8 +17,8 @@ export const projects: Project[] = [
   {
     id: "nicktoons-dice-of-destiny",
     title: "Nicktoons & The Dice of Destiny",
-    summary: "Jogo profissional lançado em múltiplas plataformas com GAS e Multiplayer Local.",
-    description: "Título profissional no qual atuei como Gameplay Programmer, desenvolvendo sistemas de combate para inimigos e bosses utilizando Gameplay Ability System (GAS) e C++. Fui responsável por calibrar a gameplay de combate e criar ferramentas data-driven que permitiram aos Game Designers iterar na dinâmica de combate de forma independente. Lançado na Steam, PlayStation 5, Nintendo Switch e Xbox.",
+    summary: "Professional game released on multiple platforms with GAS and Local Multiplayer.",
+    description: "Professional title where I acted as a Gameplay Programmer, developing combat systems for enemies and bosses using Gameplay Ability System (GAS) and C++. I was responsible for balancing the combat gameplay and creating data-driven tools that allowed Game Designers to iterate on combat dynamics independently. Released on Steam, PlayStation 5, Nintendo Switch, and Xbox.",
     thumbnail: import.meta.env.BASE_URL + "images/dice-thumb.jpg",
     video: "https://www.youtube.com/watch?v=v1CZ2Xyrda0",
     tags: ["C++", "GAS", "Multiplayer Local", "Action RPG", "Shipped Title"],
@@ -26,19 +26,19 @@ export const projects: Project[] = [
     storeUrl: "",
     codeSnippets: [],
     features: [
-      "Sistema de habilidades de inimigos com GAS",
-      "Boss encounters com mecânicas complexas",
-      "Ferramentas data-driven para Game Designers",
-      "Multiplayer Local co-op",
-      "Lançado em 4 plataformas"
+      "Enemy ability system with GAS",
+      "Boss encounters with complex mechanics",
+      "Data-driven tools for Game Designers",
+      "Local co-op Multiplayer",
+      "Released on 4 platforms"
     ],
     links: []
   },
   {
     id: "multiplayer-gas-showcase",
     title: "Multiplayer GAS Showcase",
-    summary: "Projeto demonstrando integração avançada de GAS com Multiplayer dedicado.",
-    description: "Projeto pessoal demonstrando a integração completa do Gameplay Ability System com networking multiplayer. Inclui replicação de abilities, prediction client-side, gameplay tags sincronizados e attribute sets replicados. Arquitetura escalável projetada para suportar dezenas de jogadores simultâneos.",
+    summary: "Project demonstrating advanced GAS integration with dedicated Multiplayer.",
+    description: "Personal project demonstrating the full integration of the Gameplay Ability System with multiplayer networking. Includes ability replication, client-side prediction, synchronized gameplay tags, and replicated attribute sets. Scalable architecture designed to support dozens of concurrent players.",
     thumbnail: import.meta.env.BASE_URL + "images/projeto_02.jpg",
     video: "",
     tags: ["C++", "GAS", "Multiplayer", "Replicated", "AI"],
@@ -56,8 +56,8 @@ export const projects: Project[] = [
   {
     id: "behavior-tree-ai",
     title: "Advanced AI Behavior Trees",
-    summary: "Sistema de IA com Behavior Trees customizadas e integração com GAS.",
-    description: "Sistema de inteligência artificial desenvolvido com Behavior Trees customizadas, tasks e decorators próprios integrados ao Gameplay Ability System. Os inimigos tomam decisões baseadas em Gameplay Tags e estados do Attribute Set, criando comportamentos emergentes e responsivos ao contexto do combate.",
+    summary: "AI system with custom Behavior Trees and GAS integration.",
+    description: "Artificial intelligence system developed with custom Behavior Trees, tasks, and decorators integrated into the Gameplay Ability System. Enemies make decisions based on Gameplay Tags and Attribute Set states, creating emergent and responsive behaviors relative to combat context.",
     thumbnail: import.meta.env.BASE_URL + "images/AIBehavior.jpeg",
     video: "",
     tags: ["C++", "Behavior Tree", "AI", "GAS", "EQS"],
@@ -65,18 +65,18 @@ export const projects: Project[] = [
     storeUrl: "",
     codeSnippets: [],
     features: [
-      "Custom BT Tasks e Decorators em C++",
-      "Integração com Gameplay Ability System",
+      "Custom BT Tasks and Decorators in C++",
+      "Integration with Gameplay Ability System",
       "Environment Query System (EQS)",
-      "Comportamento contextual baseado em Gameplay Tags"
+      "Contextual behavior based on Gameplay Tags"
     ],
     links: []
   },
   {
     id: "the-grid",
     title: "The Grid",
-    summary: "Jogo simples feito para estudo.",
-    description: "Possui um inventário simples e sistemas de armas, consumíveis e interação. Feito para estudos e 100% em blueprints.",
+    summary: "A simple game created for educational purposes.",
+    description: "Features a simple inventory, weapon, consumable, and interaction system. Created for study and 100% in blueprints.",
     thumbnail: import.meta.env.BASE_URL + "images/projeto_03.png",
     video: "",
     tags: ["Blueprints", "Inventory", "Gameplay Systems"],

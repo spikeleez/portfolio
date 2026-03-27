@@ -4,45 +4,45 @@ import ScrollReveal from "./ScrollReveal";
 const timelineData = [
   {
     year: "2018",
-    title: "Primeiro Contato",
+    title: "First Contact",
     description:
-      "Descobri a Unreal Engine como hobby, explorando o mundo dos Blueprints e entendendo os fundamentos do engine.",
+      "Discovered Unreal Engine as a hobby, exploring the world of Blueprints and understanding the engine fundamentals.",
   },
   {
     year: "2019",
-    title: "Aprofundamento",
+    title: "Deepening Knowledge",
     description:
-      "Comecei a me dedicar com mais seriedade, estudando mecânicas de gameplay e expandindo o conhecimento em Blueprint scripting.",
+      "Started dedicating myself more seriously, studying gameplay mechanics and expanding Blueprint scripting knowledge.",
   },
   {
     year: "2020",
-    title: "Decisão Profissional",
+    title: "Professional Decision",
     description:
-      "Momento decisivo: escolhi seguir carreira com a Unreal Engine. Foco total em Gameplay Systems e arquitetura de jogos.",
+      "Decisive moment: chose to pursue a career with Unreal Engine. Total focus on Gameplay Systems and game architecture.",
   },
   {
     year: "2022",
     title: "Multiplayer & AI",
     description:
-      "Iniciei estudos em Multiplayer networking, Behavior Trees para IA e dei os primeiros passos em C++.",
+      "Initiated studies in Multiplayer networking, Behavior Trees for AI, and took the first steps in C++.",
   },
   {
     year: "2023",
     title: "C++ & GAS",
     description:
-      "Mergulhei no C++ e no Gameplay Ability System. Descobri o poder da escalabilidade e das soluções profissionais que o GAS proporciona.",
+      "Dived into C++ and the Gameplay Ability System. Discovered the power of scalability and professional solutions that GAS provides.",
   },
   {
     year: "2024",
-    title: "Indústria Profissional",
+    title: "Professional Industry",
     description:
-      "Ingressei em estúdio profissional. Trabalhei com GAS e Multiplayer Local em Action RPG, desenvolvendo IA de inimigos, bosses e ferramentas para Game Designers.",
+      "Joined a professional studio. Worked with GAS and Local Multiplayer in an Action RPG, developing enemy AI, bosses, and designer tools.",
   },
   {
     year: "2025",
-    title: "Primeiro Título Lançado",
+    title: "First Shipped Title",
     description:
-      "Lancei Nicktoons & The Dice of Destiny na Steam, PS5, Nintendo Switch e Xbox. Experiência completa do protótipo ao shipping multiplataforma.",
+      "Launched Nicktoons & The Dice of Destiny on Steam, PS5, Nintendo Switch, and Xbox. Full experience from prototype to multiplatform shipping.",
   },
 ];
 
@@ -52,13 +52,13 @@ export default function Timeline() {
       <div className="max-w-4xl mx-auto">
         <ScrollReveal>
           <p className="text-sm tracking-[0.3em] text-white/30 uppercase mb-8">
-            Jornada
+            Journey
           </p>
         </ScrollReveal>
 
         <ScrollReveal delay={0.1}>
           <h2 className="text-3xl md:text-4xl font-bold text-white/90 mb-20">
-            Do hobby à indústria
+            From hobby to industry
           </h2>
         </ScrollReveal>
 

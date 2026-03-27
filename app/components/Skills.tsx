@@ -31,7 +31,7 @@ const skillCategories = [
     skills: [
       { name: "Git / GitHub", level: 85 },
       { name: "Tortoise SVN", level: 80 },
-      { name: "Otimização & Escalabilidade", level: 80 },
+      { name: "Optimization & Scalability", level: 80 },
     ],
   },
 ];
@@ -48,7 +48,7 @@ export default function Skills() {
 
         <ScrollReveal delay={0.1}>
           <h2 className="text-3xl md:text-4xl font-bold text-white/90 mb-20">
-            Tecnologias & Especialidades
+            Technologies & Specialties
           </h2>
         </ScrollReveal>
 

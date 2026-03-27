@@ -2,11 +2,11 @@ import { motion, useScroll, useTransform } from "framer-motion";
 import { useState, useEffect } from "react";
 
 const navLinks = [
-  { label: "Sobre", href: "#about" },
-  { label: "Jornada", href: "#timeline" },
+  { label: "About", href: "#about" },
+  { label: "Journey", href: "#timeline" },
   { label: "Skills", href: "#skills" },
-  { label: "Projetos", href: "#projects" },
-  { label: "Contato", href: "#contact" },
+  { label: "Projects", href: "#projects" },
+  { label: "Contact", href: "#contact" },
 ];
 
 export default function Navbar() {

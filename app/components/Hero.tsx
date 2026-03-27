@@ -82,7 +82,7 @@ export default function Hero() {
               document.querySelector("#projects")?.scrollIntoView({ behavior: "smooth" });
             }}
           >
-            VER PROJETOS
+            VIEW PROJECTS
           </motion.a>
           <motion.a
             href="#contact"
@@ -94,7 +94,7 @@ export default function Hero() {
               document.querySelector("#contact")?.scrollIntoView({ behavior: "smooth" });
             }}
           >
-            CONTATO
+            CONTACT
           </motion.a>
         </motion.div>
 

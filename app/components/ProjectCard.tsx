@@ -187,7 +187,7 @@ export default function ProjectCard({ project, onClick }: ProjectCardProps) {
                 border: "1px solid rgba(255, 255, 255, 0.12)",
               }}
             >
-              Ver Detalhes
+              View Details
             </motion.span>
           </div>
         </div>

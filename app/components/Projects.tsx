@@ -30,17 +30,17 @@ export default function Projects({ projects }: ProjectsProps) {
       <div className="max-w-6xl mx-auto">
         <ScrollReveal>
           <p className="text-sm tracking-[0.3em] text-white/30 uppercase mb-8">
-            Projetos
+            Projects
           </p>
         </ScrollReveal>
 
         <ScrollReveal delay={0.1}>
           <h2 className="text-3xl md:text-4xl font-bold text-white/90 mb-4">
-            Trabalhos & Experimentos
+            Works & Experiments
           </h2>
           <p className="text-white/35 mb-20 max-w-lg">
-            Uma seleção de projetos que demonstram minhas capacidades com
-            Unreal Engine 5, C++, GAS e Multiplayer.
+            A selection of projects demonstrating my capabilities with
+            Unreal Engine 5, C++, GAS, and Multiplayer.
           </p>
         </ScrollReveal>
 
@@ -59,7 +59,7 @@ export default function Projects({ projects }: ProjectsProps) {
         {projects.length === 0 && (
           <div className="text-center py-20">
             <p className="text-sm" style={{ color: "rgba(255, 255, 255, 0.2)" }}>
-              Nenhum projeto encontrado. Adicione projetos ao arquivo projects.json.
+              No projects found. Add projects to the projects.ts file.
             </p>
           </div>
         )}
