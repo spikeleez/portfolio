@@ -5,7 +5,7 @@
     "summary": "Jogo profissional lançado em múltiplas plataformas com GAS e Multiplayer Local.",
     "description": "Título profissional no qual atuei como Gameplay Programmer, desenvolvendo sistemas de combate para inimigos e bosses utilizando Gameplay Ability System (GAS) e C++. Fui responsável por calibrar a gameplay de combate e criar ferramentas data-driven que permitiram aos Game Designers iterar na dinâmica de combate de forma independente. Lançado na Steam, PlayStation 5, Nintendo Switch e Xbox.",
     "thumbnail": "/images/dice-thumb.jpg",
-    "video": "",
+    "video": "https://www.youtube.com/watch?v=v1CZ2Xyrda0",
     "tags": ["C++", "GAS", "Multiplayer Local", "Action RPG", "Shipped Title"],
     "githubUrl": "",
     "storeUrl": "",
@@ -24,10 +24,10 @@
     "title": "Multiplayer GAS Showcase",
     "summary": "Projeto demonstrando integração avançada de GAS com Multiplayer dedicado.",
     "description": "Projeto pessoal demonstrando a integração completa do Gameplay Ability System com networking multiplayer. Inclui replicação de abilities, prediction client-side, gameplay tags sincronizados e attribute sets replicados. Arquitetura escalável projetada para suportar dezenas de jogadores simultâneos.",
-    "thumbnail": "/images/placeholder-project.jpg",
+    "thumbnail": "/images/GAS.png",
     "video": "",
     "tags": ["C++", "GAS", "Multiplayer", "Dedicated Server", "Replication"],
-    "githubUrl": "",
+    "githubUrl": "https://github.com/spikeleez/gas-aura-ue5",
     "storeUrl": "",
     "codeSnippets": [],
     "features": [
@@ -43,7 +43,7 @@
     "title": "Advanced AI Behavior Trees",
     "summary": "Sistema de IA com Behavior Trees customizadas e integração com GAS.",
     "description": "Sistema de inteligência artificial desenvolvido com Behavior Trees customizadas, tasks e decorators próprios integrados ao Gameplay Ability System. Os inimigos tomam decisões baseadas em Gameplay Tags e estados do Attribute Set, criando comportamentos emergentes e responsivos ao contexto do combate.",
-    "thumbnail": "/images/placeholder-project.jpg",
+    "thumbnail": "/images/AIBehavior.jpeg",
     "video": "",
     "tags": ["C++", "Behavior Tree", "AI", "GAS", "EQS"],
     "githubUrl": "",
@@ -54,6 +54,25 @@
       "Integração com Gameplay Ability System",
       "Environment Query System (EQS)",
       "Comportamento contextual baseado em Gameplay Tags"
+    ],
+    "links": []
+  },
+  {
+    "id": "the-grid",
+    "title": "The Grid",
+    "summary": "Jogo simples feito para estudo.",
+    "description": "Possui um inventário simples e sistemas de armas, consumíveis e interação. Feito para estudos e 100% em blueprints.",
+    "thumbnail": "/images/projeto_03.png",
+    "video": "",
+    "tags": ["Blueprints", "Inventory", "Gameplay Systems"],
+    "githubUrl": "",
+    "storeUrl": "",
+    "codeSnippets": [],
+    "features": [
+      "Custom Inventory System",
+      "Custom Interaction System",
+      "Consumables System",
+      "Custom Weapon System"
     ],
     "links": []
   }

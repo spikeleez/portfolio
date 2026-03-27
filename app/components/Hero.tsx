@@ -14,7 +14,7 @@ const letterAnimation = {
 } as const;
 
 export default function Hero() {
-  const title = "Unreal Engine 5";
+  const title = "Cauã Mattos";
   const subtitle = "C++ & Multiplayer Programmer";
 
   return (
