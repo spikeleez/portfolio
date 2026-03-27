@@ -27,13 +27,13 @@ export default function Footer() {
         <ScrollReveal delay={0.3}>
           <div className="flex flex-wrap gap-4 mb-20">
             <a
-              href="mailto:seu-email@exemplo.com"
+              href="https://mail.google.com/mail/u/0/#inbox?compose=DmwnWtVcJRdmVZXCNDWslhlKPTtKxzWVtWcndbDnjWLZrZmHKHjhLDfjrqDrcPMdZTcvwgvNlrVb"
               className="px-6 py-3 border border-white/20 text-white/70 text-sm tracking-wider hover:bg-white/5 hover:border-white/40 transition-all duration-300 rounded-xl"
             >
               EMAIL
             </a>
             <a
-              href="https://github.com/seu-usuario"
+              href="https://github.com/spikeleez"
               target="_blank"
               rel="noopener noreferrer"
               className="px-6 py-3 border border-white/10 text-white/50 text-sm tracking-wider hover:bg-white/5 hover:border-white/30 hover:text-white/70 transition-all duration-300 rounded-xl"
@@ -41,7 +41,7 @@ export default function Footer() {
               GITHUB
             </a>
             <a
-              href="https://linkedin.com/in/seu-usuario"
+              href="https://linkedin.com/in/cauamattos"
               target="_blank"
               rel="noopener noreferrer"
               className="px-6 py-3 border border-white/10 text-white/50 text-sm tracking-wider hover:bg-white/5 hover:border-white/30 hover:text-white/70 transition-all duration-300 rounded-xl"
