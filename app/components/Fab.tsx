@@ -3,12 +3,12 @@ import ScrollReveal from "./ScrollReveal";
 import ProjectModal from "./ProjectModal";
 import ProjectCard from "./ProjectCard";
 
-interface Project {
+interface FabProduct {
   id: string;
   title: string;
   summary: string;
-  documentation: string;
   description: string;
+  documentation: string;
   thumbnail: string;
   video: string;
   tags: string[];
@@ -20,51 +20,53 @@ interface Project {
   links: { label: string; url: string }[];
 }
 
-interface ProjectsProps {
-  projects: Project[];
+interface FabProps {
+  products: FabProduct[];
 }
 
-export default function Projects({ projects }: ProjectsProps) {
-  const [selected, setSelected] = useState<Project | null>(null);
+export default function Fab({ products }: FabProps) {
+  const [selected, setSelected] = useState<FabProduct | null>(null);
 
   return (
-    <section id="projects" className="relative py-32 px-6">
+    <section id="fab" className="relative py-32 px-6 border-t border-white/5">
       <div className="max-w-6xl mx-auto">
         <ScrollReveal>
           <p className="text-sm tracking-[0.3em] text-white/30 uppercase mb-8">
-            Projects
+            Fab Store
           </p>
         </ScrollReveal>
 
         <ScrollReveal delay={0.1}>
           <h2 className="text-3xl md:text-4xl font-bold text-white/90 mb-4">
-            Works & Experiments
+            Marketplace Products
           </h2>
           <p className="text-white/35 mb-20 max-w-lg">
-            A selection of projects demonstrating my capabilities with
-            Unreal Engine 5, C++, GAS, and Multiplayer.
+            A selection of professional tools and assets available on the Fab marketplace, 
+            designed to accelerate development with high-quality systems.
           </p>
         </ScrollReveal>
 
-        {/* Project Grid */}
+        {/* Product Grid */}
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {projects.map((project, index) => (
-            <ScrollReveal key={project.id} delay={index * 0.08}>
+          {products.map((product, index) => (
+            <ScrollReveal key={product.id} delay={index * 0.08}>
               <ProjectCard
-                project={project}
-                onClick={() => setSelected(project)}
+                project={product}
+                onClick={() => setSelected(product)}
               />
             </ScrollReveal>
           ))}
         </div>
-        {projects.length === 0 && (
+
+        {products.length === 0 && (
           <div className="text-center py-20">
             <p className="text-sm" style={{ color: "rgba(255, 255, 255, 0.2)" }}>
-              No projects found. Add projects to the projects.ts file.
+              No products found. Add products to the fab.ts file.
             </p>
           </div>
         )}
       </div>
+
       <ProjectModal project={selected} onClose={() => setSelected(null)} />
     </section>
   );

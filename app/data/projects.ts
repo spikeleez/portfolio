@@ -8,6 +8,7 @@ export interface Project {
   tags: string[];
   githubUrl: string;
   storeUrl: string;
+  downloadUrl: string;
   codeSnippets: { title: string; language: string; code: string }[];
   features: string[];
   links: { label: string; url: string }[];
@@ -24,6 +25,7 @@ export const projects: Project[] = [
     tags: ["C++", "GAS", "Multiplayer Local", "Action RPG", "Shipped Title"],
     githubUrl: "",
     storeUrl: "",
+    downloadUrl: "",
     codeSnippets: [],
     features: [
       "Enemy ability system with GAS",
@@ -44,6 +46,7 @@ export const projects: Project[] = [
     tags: ["C++", "GAS", "Multiplayer", "Replicated", "AI"],
     githubUrl: "https://github.com/spikeleez/gas-aura-ue5",
     storeUrl: "",
+    downloadUrl: "",
     codeSnippets: [],
     features: [
       "Client-side prediction para abilities",
@@ -63,6 +66,7 @@ export const projects: Project[] = [
     tags: ["C++", "Behavior Tree", "AI", "GAS", "EQS"],
     githubUrl: "",
     storeUrl: "",
+    downloadUrl: "",
     codeSnippets: [],
     features: [
       "Custom BT Tasks and Decorators in C++",
@@ -82,6 +86,7 @@ export const projects: Project[] = [
     tags: ["Blueprints", "Inventory", "Gameplay Systems"],
     githubUrl: "",
     storeUrl: "",
+    downloadUrl: "",
     codeSnippets: [],
     features: [
       "Custom Inventory System",

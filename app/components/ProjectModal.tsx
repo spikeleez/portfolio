@@ -8,12 +8,14 @@ interface Project {
   id: string;
   title: string;
   summary: string;
+  documentation: string;
   description: string;
   thumbnail: string;
   video: string;
   tags: string[];
   githubUrl: string;
   storeUrl: string;
+  downloadUrl: string;
   codeSnippets: { title: string; language: string; code: string }[];
   features: string[];
   links: { label: string; url: string }[];
@@ -304,6 +306,50 @@ function ModalContent({ project, onClose }: { project: Project; onClose: () => v
                   }}
                 >
                   VIEW ON STORE
+                </a>
+              )}
+              {project.downloadUrl && (
+                <a href={project.downloadUrl} target="_blank" rel="noopener noreferrer"
+                  style={{
+                    display: "inline-flex", alignItems: "center", gap: "0.5rem",
+                    padding: "0.75rem 1.5rem", fontSize: "13px", letterSpacing: "0.06em",
+                    border: "1px solid rgba(255, 255, 255, 0.15)", color: "rgba(255, 255, 255, 0.7)",
+                    borderRadius: "0.75rem", backgroundColor: "rgba(255, 255, 255, 0.04)",
+                    textDecoration: "none", transition: "all 0.3s ease", cursor: "pointer",
+                  }}
+                  onMouseEnter={(e) => {
+                    e.currentTarget.style.backgroundColor = "rgba(255, 255, 255, 0.1)";
+                    e.currentTarget.style.borderColor = "rgba(255, 255, 255, 0.3)";
+                    e.currentTarget.style.color = "rgba(255, 255, 255, 0.95)";
+                  }}
+                  onMouseLeave={(e) => {
+                    e.currentTarget.style.backgroundColor = "rgba(255, 255, 255, 0.04)";
+                    e.currentTarget.style.borderColor = "rgba(255, 255, 255, 0.15)";
+                    e.currentTarget.style.color = "rgba(255, 255, 255, 0.7)";
+                  }}
+                >
+                  DOWNLOAD PROJECT
+                </a>
+              )}
+              {project.documentation && (
+                <a href={project.documentation} target="_blank" rel="noopener noreferrer"
+                  style={{
+                    display: "inline-flex", alignItems: "center", gap: "0.5rem",
+                    padding: "0.75rem 1.5rem", fontSize: "13px", letterSpacing: "0.06em",
+                    border: "1px solid rgba(255, 255, 255, 0.1)", color: "rgba(255, 255, 255, 0.5)",
+                    borderRadius: "0.75rem", backgroundColor: "transparent",
+                    textDecoration: "none", transition: "all 0.3s ease", cursor: "pointer",
+                  }}
+                  onMouseEnter={(e) => {
+                    e.currentTarget.style.backgroundColor = "rgba(255, 255, 255, 0.06)";
+                    e.currentTarget.style.color = "rgba(255, 255, 255, 0.8)";
+                  }}
+                  onMouseLeave={(e) => {
+                    e.currentTarget.style.backgroundColor = "transparent";
+                    e.currentTarget.style.color = "rgba(255, 255, 255, 0.5)";
+                  }}
+                >
+                  DOCUMENTATION
                 </a>
               )}
               {project.links.map((link) => (
